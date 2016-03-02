@@ -5,7 +5,7 @@
  *      Author: daber
  */
 
-#include "Edystone.h"
+#include "Eddystone.h"
 
 #include <SPI.h>
 #include <EEPROM.h>

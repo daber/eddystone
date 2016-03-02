@@ -5,8 +5,8 @@
  *      Author: daber
  */
 
-#ifndef EDYSTONE_H_
-#define EDYSTONE_H_
+#ifndef EDDYSTONE_H_
+#define EDDYSTONE_H_
 
 #include <Arduino.h>
 #define HTTP_WWW "http://www."
@@ -84,4 +84,4 @@ private:
 
 };
 
-#endif /* EDYSTONE_H_ */
+#endif /* EDDYSTONE_H_ */

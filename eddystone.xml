@@ -2,12 +2,12 @@
 <!DOCTYPE AttributeServer>
 <Profile Version="1.3">
     <SetupId>0</SetupId>
-    <Device>nRF8001_Dx</Device>
+    <Device>nRF8001_Dx</Device>f
     <Service Type="local" PrimaryService="true">
-        <Name>Edystone</Name>
+        <Name>eddystone</Name>
         <Uuid>feaa</Uuid>
         <Characteristic>
-            <Name>Edystone data</Name>
+            <Name>eddystone data</Name>
             <Uuid>feaa</Uuid>
             <DefaultValue>0000000000000000000000000000</DefaultValue>
             <UsePresentationFormat>0</UsePresentationFormat>
@@ -30,7 +30,7 @@
         </Characteristic>
     </Service>
     <Gapsettings>
-        <Name>Edystone</Name>
+        <Name>eddystone</Name>
         <DeviceNameWriteLength>0</DeviceNameWriteLength>
         <LocalPipeOnDeviceName>false</LocalPipeOnDeviceName>
         <DeviceNameShortLength>1</DeviceNameShortLength>
